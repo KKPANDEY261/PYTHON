@@ -90,6 +90,40 @@ print('Logical or :-',c or d)
 
 print('Logical not:-',not c)
 
+#Identity Operator
+#identity, is operator
+e=[1,2,3,4,5,6,7,8,9]
+b=e
+print("identity, is  operator:- ",e is b)
+f=[1,2,3,4,5,6,7,8,9]
+print("identity, is operator:-",e is f)
+
+#identity, is not operator
+
+print ("identity, is not :-",e is not b)
+print("identity, is not operator:-", e is not f)
+
+#membership operator
+
+#membership, in operator 
+
+g={"apple","banana","mango"}
+print("membership, in operator:-","apple" in g)
+print ("membership , not in operator:-","apple" not in g)
+
+
+#bitwise operator
+#and
+print("Bitwise and:-",5&6)
+print("Bitwise or :-",5|6)
+print ("Bitwise not :-",~5)
+print("Bitwise xor:-", 5^6)
+print ("Bitwise left shift :-",5<<2)
+print("Bitwise left shift:-",-5<<2)
+print ("Bitwise right shift:-",10>>2)
+print("Bitwise right shift:-",-5>>2)
+
+#Ternary operator
 x=5
 y='Even Number' if x%2 == 0 else 'Odd number'
 print(y)
