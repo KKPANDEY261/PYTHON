@@ -90,6 +90,8 @@ print('Logical or :-',c or d)
 
 print('Logical not:-',not c)
 
-
+x=5
+y='Even Number' if x%2 == 0 else 'Odd number'
+print(y)
 
 

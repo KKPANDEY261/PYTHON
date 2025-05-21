@@ -4,6 +4,7 @@ a=10
 b=-5
 print("Intteger:-",a,b)
 print(type(a))
+print(type(b))
 
 # Float 
 c=3.14
