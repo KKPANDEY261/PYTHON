@@ -59,6 +59,8 @@ else:
 
 #ternary operator (conditional statement)
 
-age=16
+age=21
 a="Adult" if age>=18 else "minor"
 print(a)
+
+print("hello") if age >=20 else print("Welcome")
