@@ -5,4 +5,3 @@ print(str(a))
 print(bool(a))
 b=str(a)
 print(type(b))
-
