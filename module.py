@@ -1,0 +1,5 @@
+#Importing a Module
+import mymodule
+a=str(input("enter your input here:-"))
+print(mymodule.abc(str(a)))  # Output: Hello, Alice!
+print(mymodule.PI)              # Output: 3.14159
