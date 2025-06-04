@@ -39,7 +39,7 @@ print(math.pi)  # Output: 3.141592653589793
 #math.isclose(a, b)
 #Checks whether two numbers are approximately equal.
 
-print(math.isclose(1.0, 1.0000001))  # Output: True
+print(math.isclose(1.0, 1.000000))  # Output: True
 
 #math.remainder(x, y)
 #Checks the remainder of x/y
