@@ -32,3 +32,8 @@ print("One week from today:", one_week_later)        #One week from today: 2025-
 birthday = date(2023, 12, 25)
 days_remaining = birthday - today
 print("Days remaining until next birthday:", days_remaining.days)       #Days remaining until next birthday: -526
+
+
+birth=date(2022,11,13)
+days= today-birth
+print(days.days)

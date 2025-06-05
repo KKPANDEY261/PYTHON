@@ -1,3 +1,5 @@
-a=(input("enter your value :-"))
-for e in range(1,11):
-    print(int(a)*e)
+from datetime import date
+today = date.today()
+birth=date(2022,11,13)
+days= today-birth
+print(days.days)
