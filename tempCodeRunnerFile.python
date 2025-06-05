@@ -1,4 +1,0 @@
-def name():
- print("hello")
- name()
-name()
