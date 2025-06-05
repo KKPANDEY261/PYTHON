@@ -1,62 +1,22 @@
-
+try:
+ b=(input("enter your input here:-"))
+ for c in range(1,11):
+  print(int(b)*c)
+except Exception as d:
+   for c in range(1,11):
+     print(5*c)
 
 
 
 
 try:
- a=(input("enter your value :-"))
- for e in range(1,11):
-    print(int(a)*e)
-except Exception as b:
- print(b)
-
+ a=int(input("enter your number:-"))
+ print(a)
+except Exception:
+ a=10
+ print(a)
 print("welcome")
 print("hello")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

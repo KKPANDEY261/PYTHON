@@ -1,5 +1,5 @@
 from datetime import date
-today = date.today()
-birth=date(2022,11,13)
-days= today-birth
-print(days.days)
+today=date.today()
+birthday = date(2016, 11, 18)
+days_remaining =  today - birthday
+print("Days remaining until next birthday:", days_remaining.days) 
