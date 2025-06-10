@@ -201,7 +201,7 @@ print(pow(2, 3))  # Output: 8
 print(pow(5, 2))  # Output: 25
 
 
-print(pow(10, 0))  # Output: 1
+print(pow(10, 2))  # Output: 100
 
 #range
 """range() function in Python is a built-in function that 
@@ -246,8 +246,8 @@ unicode() function in Python was used to convert a given
 object into a Unicode string.
 """
 # Python 3 
-text = "hello"
-print(text)  # output : hello
+#text = "hello"
+#print(text)  # output : hello
 #"hello" = b'\\u0928\\u092e\\u0938\\u094d\\u0924'
 
 # vars
