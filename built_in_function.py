@@ -190,78 +190,75 @@ longest_word = max(words, key=len)
 print(longest_word)  #
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #pow
+"""pow() function in Python is a built-in function that calculates 
+the power of a number."""
 
 
+print(pow(2, 3))  # Output: 8
+
+
+print(pow(5, 2))  # Output: 25
+
+
+print(pow(10, 0))  # Output: 1
 
 #range
-
-
+"""range() function in Python is a built-in function that 
+generates a sequence of numbers. """
+ 
+a=range(1,10)
+print(list(a))
+b=range(1,20,2)
+print(list(b))
 
 #slice
+"""
+slice() function in Python is a built-in function that returns a
+slice object. This object can be used to extract a portion (slice) 
+of a sequence (such as a list, tuple, or string)."""
 
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+# slice(2, 5) means from index 2 to 4 (5 is excluded)
+s = slice(2, 5)
+print(my_list[s])  # Output: [3, 4, 5]
 
 #tuple
+"""
+tuple() function is a built-in Python function that creates a 
+tuple. Tuples are immutable (unchangeable) and ordered sequence 
+data structures.
+"""
 
+# Direct tuple creation (with parentheses)
+numbers = [10, 20, 30]
+print(tuple(numbers))  # Output: (10, 20, 30)
+
+# Creating tuple from dictionary
+dict_data = {'a': 1, 'b': 2}
+print(tuple(dict_data))  # Output: ('a', 'b') - only takes keys
 
 
 #Unicode
-
-
+"""
+unicode() function in Python was used to convert a given 
+object into a Unicode string.
+"""
+# Python 3 
+text = "hello"
+print(text)  # output : hello
+#"hello" = b'\\u0928\\u092e\\u0938\\u094d\\u0924'
 
 # vars
+
+"""
+vars() function is a built-in Python function that returns 
+the __dict__ attribute of an object.
+"""
+
+x = 10
+y = "Hello"
+print(vars())  # Shows variables in local scope as a dictionary
+
+

@@ -1,3 +1,3 @@
-words = ["apple", "banana", "cherry", "date"]
-longest_word = max(words, key=len)
-print(longest_word)  #
+x = 10
+y = "Hello"
+print(vars())
