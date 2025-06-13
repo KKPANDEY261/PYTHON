@@ -1,3 +1,5 @@
-x = 10
-y = "Hello"
-print(vars())
+file = open("newfile.txt","wb+")  
+file.write(b'\x68\x65\x6C\x6C\x6F')
+a=file.read()
+print(a)
+file.close()

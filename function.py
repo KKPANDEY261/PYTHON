@@ -35,4 +35,3 @@ def person_info(**details):
         print(f"{key}: {value}")
 
 person_info(name="pandey", address="howrah", mobile=7388847685)
-
